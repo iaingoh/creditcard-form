@@ -1,0 +1,3 @@
+// $(function() {});
+// var monthControl = document.querySelector('input[type="month"]');
+// monthControl.value = '1978-06';

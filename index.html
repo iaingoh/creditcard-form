@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+<body>
+    <div>
+        <form>
+            <fieldset>
+                <legend>Secure Payment Information</legend>
+                <h1>Secure Payment Information</h1>
+                <input type="radio" id="credit_card" name="paymentRadios" value="credit_card">
+                    <label for="credit_card"></label>
+                    <i class="fab fa-cc-visa fa-cc-visa-color fa-3x"></i>
+                    <i class="fab fa-cc-mastercard fa-cc-mastercard-color fa-3x"></i>
+                    <i class="fab fa-cc-amex fa-3x"></i>
+                    <i class="fab fa-cc-discover fa-3x"></i>
+                    
+                <input type="radio" id="paypal" name="paymentRadios" value="paypal">
+                    <label for="paypal"></label>
+                    <i class="fab fa-cc-paypal fa-3x"></i>
+                <div>
+                    <label for="name">Name (as it appears on your card)</label>
+                    <input type="text" id="name">
+                </div>
+                <div>
+                    <label for="card_number">Card Number (no dashes or spaces)</label>
+                    <input type="text" id="card_number" placeholder="1111-2222-3333-4444">
+                </div>
+                <div>
+                    <label for="expiration_date">Expiration date</label>
+                    <input type="month" id="expiration_date" min="2018-12" value="2019-01">
+                </div>
+                <div>
+                    <label for="security_code">Security Code (3 on back, Amex; 4 on front)</label>
+                    <input type="text" id="security_code" placeholder="352" style="display: inline-block;">
+                    <img src="img/cvv3.png" width=60px alt="cvv3" style="position:relative; top:5px;" />
+                    <img src="img/cvv4.png" width=57px alt="cvv4" style="position:relative; top:5px;" />
+                </div>
+                <input type="submit" value="Submit" />
+            </fieldset>
+        </form>
+    </div>
+    <!-- <script type="text/javascript" src="js/app.js"></script> -->
+</body>
+</html>
+                
+                
+    
+    
+                
+                
+                
+
+            
+                    

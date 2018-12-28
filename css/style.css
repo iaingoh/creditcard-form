@@ -1,0 +1,38 @@
+.fab{
+    text-align: center;
+}
+
+input:focus {
+    border: 3px solid #555;
+}
+
+input {
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+button, input, select, textarea {
+  font-family : inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+
+legend {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+div {
+}
+
+form {
+}
+    
+
+
+
+
+
+    
