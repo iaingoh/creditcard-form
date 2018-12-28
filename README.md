@@ -4,7 +4,7 @@ This is a very basic HTML form styled with simple CSS meant for rudimentary cred
 
 ### Fields:
 - Payment type
- - Visa, MC, AMEX, Discover, Paypal
+  - Visa, MC, AMEX, Discover, Paypal
 - Name
 - Card Number
 - Expiration Date
