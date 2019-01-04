@@ -4,11 +4,12 @@ body {
     background: url("../img/background.jpg");
     background-size: cover;
     background-position: center;
+    font-family: sans-serif;
 }
 
 .loginbox {
-  width:350px;
-  height: 670px;
+  width:450px;
+  height: 590px;
   background: #000;
   color: #fff;
   top: 50%;
@@ -18,15 +19,59 @@ body {
   box-sizing: border-box;
   /* vertical | horizontal */
   padding: 20px 30px;
+  border-radius: 10px;
 }
 
 h1 {
   margin: 0;
-  
+  /* top | horizontal | bottom */
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 23px;
 }
 
 .fab{
     text-align: center;
+}
+
+.loginbox label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.loginbox input {
+  width: auto;
+  margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="month"]
+{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 25px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.loginbox input[type="submit"]
+{
+  border: none;
+  outline: none;
+  height: 30px;
+  background: #ff6600;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
 }
 
 input {
